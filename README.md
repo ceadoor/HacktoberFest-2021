@@ -138,8 +138,8 @@ Now submit the pull request.
 3. https://nvie.com/posts/a-successful-git-branching-model/
 4. [a video demo on collaborting on github - worth watching](https://www.youtube.com/watch?v=3YDGeJti9sg)
 5. [cheatsheet - use this if you are using terminal/cmd to talk to git](https://education.github.com/git-cheat-sheet-education.pdf)
-#
 
+#
 # ** *Happy Coding* **
 
 ![](Assets/footer-light.png)
