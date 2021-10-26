@@ -49,9 +49,53 @@ For example : You are coding a program to print 'Hello World!' in C Programming 
 
 ```html
 <html>
-  <body>
-    <h1>This is my heading</h1>
-  </body>
+<head>
+<style>
+body{
+  background-color: white;
+}
+
+h1{
+  color: #6F69AC;
+  text-align: center;
+  line-height: 0.3;
+}
+
+h5{
+  color: #FD6F96 ;
+  text-align: center;
+}
+  
+p{
+  color: #716bad;
+  font-family: Arial    ;
+}
+  
+ol{
+  margin-left: 20px;
+}
+li{
+  color: #716bad;
+  font-family: Monospace;
+}
+</style>
+  
+</head>
+<body>
+  <h1>Heading of the Article  </h1>
+  <h5>By: John Doe</h5>
+  <p>
+    This is the paragraph with p tag
+  </p>
+  
+  <ol>
+    <li>List 1</li>
+    <li>List 2</li>
+    <li>List 3</li>
+    <li>List 4</li>
+    <li>List 5</li>
+  </ol>
+</body>
 </html>
 ```
 

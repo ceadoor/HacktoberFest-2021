@@ -4,16 +4,16 @@
 # Table of Contents
 - [HacktoberFest-2021](#hacktoberfest-2021)
 - [Table of Contents](#table-of-contents)
-  - [Steps to Collaborate](#steps-to-collaborate)
-    - [Fork this repository](#fork-this-repository)
-    - [Clone this repository](#clone-this-repository)
-    - [Create a branch](#create-a-branch)
-    - [Commit your changes](#commit-your-changes)
-    - [Push changes to github](#push-changes-to-github)
-    - [Submit your changes for review](#submit-your-changes-for-review)
-  - [This is what we just done(summary)](#this-is-what-we-just-donesummary)
-  - [github technical terms and meaning](#github-technical-terms-and-meaning)
-  - [Helpful Links](#helpful-links)
+- [Steps to Collaborate](#steps-to-collaborate)
+- [Fork this repository](#fork-this-repository)
+- [Clone this repository](#clone-this-repository)
+- [Create a branch](#create-a-branch)
+- [Commit your changes](#commit-your-changes)
+- [Push changes to github](#push-changes-to-github)
+- [Submit your changes for review](#submit-your-changes-for-review)
+- [This is what we just done(summary)](#this-is-what-we-just-donesummary)
+- [Github technical terms and meaning](#github-technical-terms-and-meaning)
+- [Helpful Links](#helpful-links)
 
 A blog to publish and promote algorithms of participants
 
@@ -138,3 +138,8 @@ Now submit the pull request.
 3. https://nvie.com/posts/a-successful-git-branching-model/
 4. [a video demo on collaborting on github - worth watching](https://www.youtube.com/watch?v=3YDGeJti9sg)
 5. [cheatsheet - use this if you are using terminal/cmd to talk to git](https://education.github.com/git-cheat-sheet-education.pdf)
+=======
+# ** *Happy Coding* **
+
+![](Assets/footer-light.png)
+
