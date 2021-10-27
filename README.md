@@ -141,5 +141,6 @@ Now submit the pull request.
 
 # **Happy coding**
 
-![](Assets/footer-light.png)
+![footer-light](Assets/footer-light.png)
+
 
