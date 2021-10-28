@@ -1,0 +1,52 @@
+<html>
+<head>
+<style>
+body{
+  background-color: white;
+}
+
+h1{
+  color: #6F69AC;
+  text-align: center;
+  line-height: 0.3;
+}
+
+h5{
+  color: #FD6F96 ;
+  text-align: center;
+}
+p    {
+  color: #716bad;
+  font-family: Arial    ;
+}
+ol{
+  margin-left: 20px;
+}
+li{
+  color: #716bad;
+  font-family: Monospace;
+}
+</style>
+</head>
+<body>
+  <h1>Reverse Of A Number</h1>
+  <h5>By: Spenser Daniel</h5>
+  <p>
+    Algorithm to find Reverse of a number
+  </p>
+  
+  <ol>
+    <li>Start</li>
+    <li>Declare a variable n, reverse and remainder as integer;</li>
+    <li>Read the number n.</li> 
+    <li>while n not equal 0
+         {
+        remainder=n%10;
+        reverse=reverse * 10 + remainder; 
+        n=n/10;
+         } </li>
+    <li>Print reverse</li>
+    <li>Stop</li>
+   </ol>
+</body>
+</html>
