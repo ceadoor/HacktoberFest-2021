@@ -1,0 +1,55 @@
+<html>
+<head>
+<style>
+	body {
+		background-color: white;
+	}
+
+	h1 {
+		color: #6f69ac;
+		text-align: center;
+		line-height: 0.3;
+	}
+
+	h5 {
+		color: #fd6f96;
+		text-align: center;
+	}
+
+	p {
+		color: #716bad;
+		font-family: Arial;
+	}
+
+	ol {
+		margin-left: 20px;
+	}
+	li {
+		color: #716bad;
+		font-family: Monospace;
+	}
+</style>
+</head>
+	
+<body>
+	<h1>Prim’s Minimum Spanning Tree (MST)</h1>
+	<h5>By: Aanand R Bhatt </h5>
+	<p>Prims Algorithm for finding minimum cost spanning tree.</p>
+
+	<ol>
+		<li>Create a set mstSet that keeps track of vertices already included in MST.  </li>
+		<li>Assign a key value to all vertices in the input graph. Initialize all key values as INFINITE. Assign key value as 0 for the first vertex so that it is picked first.  </li>
+		<li>While mstSet doesn’t include all vertices 
+        	<ol type="a">
+            	<li> Pick a vertex u which is not there in mstSet and has minimum key value.  </li>
+                <li> Include u to mstSet. </li>
+                <li>Update key value of all adjacent vertices of u. To update the key values, iterate through all adjacent vertices. For every adjacent vertex v, if weight of edge u-v is less than the previous key value of v, update the key value as weight of u-v
+The idea of using key values is to pick the minimum weight edge from cut. The key values are used only for vertices which are not yet included in MST, the key value for these vertices indicate the minimum weight edges connecting them to the set of vertices included in MST.  </li>
+
+            </ol>
+        </li>
+	
+	</ol>
+	
+</body>
+</html>
