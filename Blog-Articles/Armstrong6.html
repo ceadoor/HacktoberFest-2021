@@ -1,0 +1,53 @@
+<html>
+<head>
+<style>
+body{
+  background-color: white;
+}
+
+h1{
+  color: #6F69AC;
+  text-align: center;
+  line-height: 0.3;
+}
+
+h5{
+  color: #FD6F96 ;
+  text-align: center;
+}
+p    {
+  color: #716bad;
+  font-family: Arial    ;
+}
+ol{
+  margin-left: 20px;
+}
+li{
+  color: #716bad;
+  font-family: Monospace;
+}
+</style>
+</head>
+<body>
+  <h1>Armstrong Number</h1>
+  <h5>By: Adarsh R S</h5>
+  <p>
+    Algorithm to check whether the given number is armstrong or not
+  </p>
+
+  <ol>
+    <li>Start</li>
+    <li>Declare Variable sum, temp, num</li>
+    <li>Read num from User.</li>
+    <li>Initialize Variable sum=0 and temp=num.</li>
+    <li>Repeat Until num>=0</li>
+    <li>sum=sum + cube of last digit i.e [(num%10)*(num%10)*(num%10)]</li>
+    <li>num=num/10</li>
+    <li>IF sum==temp
+            Print "Armstrong Number"
+        ELSE 
+            Print "Not Armstrong Number"</li>
+    <li>Stop</li>
+  </ol>
+</body>
+</html>
