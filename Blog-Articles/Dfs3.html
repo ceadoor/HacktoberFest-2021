@@ -1,0 +1,48 @@
+<html>
+<head>
+<style>
+	body {
+		background-color: white;
+	}
+
+	h1 {
+		color: #6f69ac;
+		text-align: center;
+		line-height: 0.3;
+	}
+
+	h5 {
+		color: #fd6f96;
+		text-align: center;
+	}
+
+	p {
+		color: #716bad;
+		font-family: Arial;
+	}
+
+	ol {
+		margin-left: 20px;
+	}
+	li {
+		color: #716bad;
+		font-family: Monospace;
+	}
+</style>
+</head>
+
+<body>
+	<h1>Depth First Search or DFS for a Graph</h1>
+	<h5>By: Adarsh R S</h5>
+	<p>Depth-first search is an algorithm for traversing or searching tree or graph data structures. The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking. So the basic idea is to start from the root or any arbitrary node and mark the node and move to the adjacent unmarked node and continue this loop until there is no unmarked adjacent node. Then backtrack and check for other unmarked nodes and traverse them. Finally, print the nodes in the path.</p>
+
+	<ol>
+		<li>Create a recursive function that takes the index of the node and a visited array.</li>
+		<li>Mark the current node as visited and print the node.</li>
+		<li>Traverse all the adjacent and unmarked nodes and call the recursive function with the index of the adjacent node.</li>
+
+
+	</ol>
+
+</body>
+</html>

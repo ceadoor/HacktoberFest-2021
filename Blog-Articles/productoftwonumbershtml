@@ -1,88 +1,47 @@
 <html>
-
 <head>
-
 <style>
-
 body{
-
   background-color: white;
-
 }
 
 h1{
-
   color: #6F69AC;
-
   text-align: center;
-
   line-height: 0.3;
-
 }
 
 h5{
-
   color: #FD6F96 ;
-
   text-align: center;
-
 }
-
 p    {
-
   color: #716bad;
-
   font-family: Arial    ;
-
 }
-
 ol{
-
   margin-left: 20px;
-
 }
-
 li{
-
   color: #716bad;
-
   font-family: Monospace;
-
 }
-
 </style>
-
 </head>
-
 <body>
-
-  <h1>Sum of Two Numbers</h1>
-
-  <h5>By: Ruth Mariyam Jose </h5>
-
+  <h1>Product of Two Numbers</h1>
+  <h5>By: Ajina A J</h5>
   <p>
-
     This algorithm uses bases addition operator to add two numbers
-
   </p>
-
   
-
   <ol>
-
     <li>Start</li>
-
-    <li>Declare variables num1, num2 and sum</li>
-
+    <li>Declare variables num1, num2 and prod</li>
     <li>Read values for num1, num2.</li>
-
-    <li>Add num1 and num2 and assign the result to a variable sum.</li>
-
-    <li>Display sum</li>
-
+    <li>Multiply num1 and num2 and assign the result to a variable prod.</li>
+    <li>Display prod</li>
     <li>Stop</li>
-
   </ol>
-
 </body>
 </html>

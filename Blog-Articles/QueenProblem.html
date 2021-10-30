@@ -1,0 +1,67 @@
+<html>
+<head>
+<style>
+	body {
+		background-color: white;
+	}
+
+	h1 {
+		color: #6f69ac;
+		text-align: center;
+		line-height: 0.3;
+	}
+
+	h5 {
+		color: #fd6f96;
+		text-align: center;
+	}
+
+	p {
+		color: #716bad;
+		font-family: Arial;
+	}
+
+	ol {
+		margin-left: 20px;
+	}
+	li {
+		color: #716bad;
+		font-family: Monospace;
+	}
+</style>
+</head>
+
+<body>
+	<h1>N Queen Problem</h1>
+	<h5>By: Ruth Mariyam Jose</h5>
+	<p>The N Queen is the problem of placing N chess queens on an N×N chessboard so that no two queens attack each other. For example, following is a solution for 4 Queen problem</p>
+
+	<ol>
+		<li>Start in the leftmost column</li>
+		<li>If all queens are placed
+    return true</li>
+		<li>Try all rows in the current column. 
+   Do following for every tried row.
+
+        	<ol type="a">
+            	<li>If the queen can be placed safely in this row 
+       then mark this [row, column] as part of the 
+       solution and recursively check if placing
+       queen here leads to a solution.
+ </li>
+                <li>If placing the queen in [row, column] leads to
+       a solution then return true. </li>
+                <li>If placing queen doesn't lead to a solution then
+       unmark this [row, column] (Backtrack) and go to 
+       step (a) to try other rows. </li>
+
+            </ol>
+        </li>
+        <li>If all rows have been tried and nothing worked,
+   return false to trigger backtracking.</li>
+
+
+	</ol>
+
+</body>
+</html>

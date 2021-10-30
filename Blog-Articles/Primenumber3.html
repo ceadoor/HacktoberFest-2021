@@ -1,0 +1,57 @@
+<html>
+<head>
+<style>
+body{
+  background-color: white;
+}
+
+h1{
+  color: #6F69AC;
+  text-align: center;
+  line-height: 0.3;
+}
+
+h5{
+  color: #FD6F96 ;
+  text-align: center;
+}
+p    {
+  color: #716bad;
+  font-family: Arial    ;
+}
+ol{
+  margin-left: 20px;
+}
+li{
+  color: #716bad;
+  font-family: Monospace;
+}
+</style>
+</head>
+<body>
+  <h1>Prime Number</h1>
+  <h5>By: Shifas Shajahan</h5>
+  <p>
+    Algorithm to check whether the given number is prime or not
+  </p>
+  
+  <ol>
+    <li>Start</li>
+    <li>Initialize variables num,flag=1, j=2</li>
+    <li> Read num from user</li>
+    <li> If num<=1           
+            Display "num is not a prime number"
+            Goto step 7</li>
+    <li>Repeat the steps until j<[(n/2)+1]
+            5.1 If remainder of number divide j equals to 0,
+                    Set flag=0
+                    Goto step 6
+            5.2 j=j+1</li>
+    <li>If flag==0,
+            Display num+" is not prime number"
+        Else 
+            Display num+" n is prime number"</li>
+    <li>Stop</li>
+  </ol>
+</body>
+</html>

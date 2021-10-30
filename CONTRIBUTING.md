@@ -45,7 +45,7 @@ git checkout -b add-john-doe
 ### How to make necessary changes and commit those changes
 
 Make changes based on what code snippet you are adding.
-For example : You are coding a program to print 'Hello World!' in C Programming Language
+For example : You want to write an algorithm to Add two Numbers
 
 ```html
 <html>
@@ -82,18 +82,18 @@ li{
   
 </head>
 <body>
-  <h1>Heading of the Article  </h1>
-  <h5>By: John Doe</h5>
+  <h1>Sum of Two Numbers</h1>                       /* Add your heading here*/
+  <h5>By: John Doe</h5>                             /* Add your name here*/
   <p>
-    This is the paragraph with p tag
+    This is the paragraph with p tag                /* Add your small description of the algorithm*/
   </p>
   
   <ol>
-    <li>List 1</li>
-    <li>List 2</li>
-    <li>List 3</li>
-    <li>List 4</li>
-    <li>List 5</li>
+    <li>List 1</li>                                 /* Here we add the first step for the algorithm*/
+    <li>List 2</li>                                 .                          
+    <li>List 3</li>                                 .
+    <li>List 4</li>                                 .
+    <li>List 5</li>                                 /* Here we add the last step for the algorithm*/
   </ol>
 </body>
 </html>
