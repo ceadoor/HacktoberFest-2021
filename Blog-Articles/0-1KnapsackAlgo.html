@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+</style>
+</head>
+<body>
+
+<h1>0-1 Knapsack Problem</h1>
+<p>By Krishna Priya R</p>
+
+<p> Steps:</p>
+<ol>
+	<li><ul><li>Draw a table say ‘T’ with (n+1) number of rows and (w+1) number of columns.</li>
+<li>Fill all the boxes of 0th row and 0th column with zeroes</li></ul>
+<li><ul><li>Start filling the table row wise top to bottom from left to right.</li></li>
+
+<li>Use the following formula-
+
+T (i , j) = max { T ( i-1 , j ) , valuei + T( i-1 , j – weighti ) }
+
+ 
+
+Here, T(i , j) = maximum value of the selected items if we can take items 1 to i and have weight restrictions of j.</li>
+
+ 
+
+<li>This step leads to completely filling the table.</li>
+<li>Then, value of the last box represents the maximum possible value that can be put into the knapsack.</li></li></ul>
+<li>To identify the items that must be put into the knapsack to obtain that maximum profit,
+
+<ul><li>Consider the last column of the table.</li>
+<li>Start scanning the entries from bottom to top.</li>
+<li>On encountering an entry whose value is not same as the value stored in the entry immediately above it, mark the row label of that entry.</li>
+<li>After all the entries are scanned, the marked labels represent the items that must be put into the knapsack.</li></ul>
+</ol>
+    </body>
+</html>
+
+</body>
+</html>
