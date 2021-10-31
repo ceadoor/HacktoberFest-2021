@@ -1,0 +1,54 @@
+<html>
+<head>
+<style>
+	body {
+		background-color: white;
+	}
+
+	h1 {
+		color: #6f69ac;
+		text-align: center;
+		line-height: 0.3;
+	}
+
+	h5 {
+		color: #fd6f96;
+		text-align: center;
+	}
+
+	p {
+		color: #716bad;
+		font-family: Arial;
+	}
+
+	ol {
+		margin-left: 20px;
+	}
+	li {
+		color: #716bad;
+		font-family: Monospace;
+	}
+</style>
+</head>
+	
+<body>
+	<h1>Inorder Tree Traversal without Recursion</h1>
+	<h5>By: Arnav Varma</h5>
+	<p>Below is an algorithm for traversing binary tree using stack</p>
+
+	<ol>
+		<li>Create an empty stack S.</li>
+		<li>Initialize current node as root</li>
+		<li>Push the current node to S and set current = current->left until current is NULL</li>
+        <li>If current is NULL and stack is not empty then 
+        <ol type="a">
+        	<li> Pop the top item from stack.</li> 
+            <li> Print the popped item, set current = popped_item->right </li>
+            <li> Go to step 3.</li>
+		</ol>
+        <li> If current is NULL and stack is empty then we are done.</li>
+	
+	</ol>
+	
+</body>
+</html>
