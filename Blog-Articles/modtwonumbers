@@ -1,0 +1,136 @@
+[14:36, 30/10/2021] Joseph CEA: <html>
+<head>
+<style>
+body{
+  background-color: white;
+}
+
+h1{
+  color: #6F69AC;
+  text-align: center;
+  line-height: 0.3;
+}
+
+h5{
+  color: #FD6F96 ;
+  text-align: center;
+}
+p    {
+  color: #716bad;
+  font-family: Arial    ;
+}
+ol{
+  margin-left: 20px;
+}
+li{
+  color: #716bad;
+  font-family: Monospace;
+}
+</style>
+</head>
+<body>
+  <h1>Sum of Two Numbers</h1>
+  <h5>By: Joseph Pious</h5>
+  <p>
+    This algorithm uses bases division operator for two numbers
+  </p>
+
+  <ol>
+    <li>Start</li>
+    <li>Declare variables num1, num2 and product</li>
+    <li>Read values for num1, num2.</li>
+    <li>Multiply num1 and num2 and assign the result to a variable product.</li>
+    <li>Display product</li>
+    <li>Stop</li>
+  </ol>
+</body>
+</html>
+[14:37, 30/10/2021] Janus CEA: <html>
+
+<head>
+
+<style>
+
+body{
+
+  background-color: white;
+
+}
+
+h1{
+
+  color: #6F69AC;
+
+  text-align: center;
+
+  line-height: 0.3;
+
+}
+
+h5{
+
+  color: #FD6F96 ;
+
+  text-align: center;
+
+}
+
+p    {
+
+  color: #716bad;
+
+  font-family: Arial    ;
+
+}
+
+ol{
+
+  margin-left: 20px;
+
+}
+
+li{
+
+  color: #716bad;
+
+  font-family: Monospace;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+  <h1>Modulus of Two Numbers</h1>
+
+  <h5>By: thomasavio</h5>
+
+  <p>
+
+    This algorithm uses bases modulus operator to find modulus of two numbers
+
+  </p>
+
+
+
+  <ol>
+
+    <li>Start</li>
+
+    <li>Declare variables num1, num2 and answer</li>
+
+    <li>Read values for num1, num2.</li>
+
+    <li>Divide num1 and num2 and assign the remainder to a variable answer.</li>
+
+    <li>Display answer</li>
+
+    <li>Stop</li>
+
+  </ol>
+
+</body>
+
+</html>
